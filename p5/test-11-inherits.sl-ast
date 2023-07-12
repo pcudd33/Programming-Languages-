@@ -1,0 +1,75 @@
+[
+  {
+    "inherits": "B",
+    "class_name": "A",
+    "members": [],
+    "methods": [
+      {
+        "name": { "line": 3, "col": 5, "value": "main" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 3,
+          "col": 12,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 4,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 4, "col": 13, "value": "x" }
+                }
+              },
+              {
+                "line": 5,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 5, "col": 13, "value": "y" }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "class_name": "B",
+    "members": [],
+    "methods": [
+      {
+        "name": { "line": 10, "col": 5, "value": "main" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 10,
+          "col": 13,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 11,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 11, "col": 13, "value": "x" }
+                }
+              },
+              {
+                "line": 12,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 12, "col": 13, "value": "a" }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

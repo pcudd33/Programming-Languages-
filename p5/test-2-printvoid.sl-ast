@@ -1,0 +1,32 @@
+[
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [],
+    "methods": [
+      {
+        "name": { "line": 2, "col": 5, "value": "main" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 2,
+          "col": 11,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 3,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 3, "col": 9, "value": "print_stirng" },
+                  "args": []
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,4 @@
+(executable
+ (name test_p1a)
+ (public_name test_p1a.exe)
+ (modules P1a test_p1a))

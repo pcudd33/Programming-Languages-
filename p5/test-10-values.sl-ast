@@ -1,0 +1,120 @@
+[
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [],
+    "methods": [
+      {
+        "name": { "line": 3, "col": 5, "value": "main" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 3,
+          "col": 11,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 4,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 4, "col": 13, "value": "bool" },
+                  "rhs": {
+                    "line": 4,
+                    "col": 20,
+                    "value": {
+                      "type": "new",
+                      "class": { "line": 4, "col": 24, "value": "Bool" }
+                    }
+                  }
+                }
+              },
+              {
+                "line": 5,
+                "col": 9,
+                "value": {
+                  "type": "if",
+                  "guard": {
+                    "line": 5,
+                    "col": 13,
+                    "value": {
+                      "type": "identifier",
+                      "value": { "line": 5, "col": 13, "value": "bool" }
+                    }
+                  },
+                  "then": {
+                    "line": 5,
+                    "col": 19,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 6,
+                          "col": 13,
+                          "value": {
+                            "type": "self-dispatch",
+                            "method": {
+                              "line": 6,
+                              "col": 13,
+                              "value": "print_string"
+                            },
+                            "args": [
+                              {
+                                "line": 6,
+                                "col": 27,
+                                "value": {
+                                  "type": "string",
+                                  "line": 6,
+                                  "col": 27,
+                                  "value": "hi kevin"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "else": {
+                    "line": 7,
+                    "col": 14,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 8,
+                          "col": 13,
+                          "value": {
+                            "type": "self-dispatch",
+                            "method": {
+                              "line": 8,
+                              "col": 13,
+                              "value": "print_string"
+                            },
+                            "args": [
+                              {
+                                "line": 8,
+                                "col": 27,
+                                "value": {
+                                  "type": "string",
+                                  "line": 8,
+                                  "col": 27,
+                                  "value": "hello kevin"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

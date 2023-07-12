@@ -1,0 +1,5 @@
+(executable
+    (name interpreter)
+    (public_name interpreter.exe)
+    (libraries str yojson)
+)

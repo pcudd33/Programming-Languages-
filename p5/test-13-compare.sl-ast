@@ -1,0 +1,285 @@
+[
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [],
+    "methods": [
+      {
+        "name": { "line": 3, "col": 5, "value": "main" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 3,
+          "col": 11,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 4,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 4, "col": 13, "value": "a" },
+                  "rhs": {
+                    "line": 4,
+                    "col": 17,
+                    "value": {
+                      "type": "new-array",
+                      "size": {
+                        "line": 4,
+                        "col": 21,
+                        "value": {
+                          "type": "number",
+                          "line": 4,
+                          "col": 21,
+                          "value": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "line": 5,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 5, "col": 13, "value": "b" },
+                  "rhs": {
+                    "line": 5,
+                    "col": 17,
+                    "value": {
+                      "type": "new-array",
+                      "size": {
+                        "line": 5,
+                        "col": 21,
+                        "value": {
+                          "type": "number",
+                          "line": 5,
+                          "col": 21,
+                          "value": 2
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "line": 7,
+                "col": 9,
+                "value": {
+                  "type": "if",
+                  "guard": {
+                    "line": 7,
+                    "col": 13,
+                    "value": {
+                      "type": "lte",
+                      "lhs": {
+                        "line": 7,
+                        "col": 13,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 7, "col": 13, "value": "a" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 7,
+                        "col": 18,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 7, "col": 18, "value": "a" }
+                        }
+                      }
+                    }
+                  },
+                  "then": {
+                    "line": 7,
+                    "col": 21,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 8,
+                          "col": 13,
+                          "value": {
+                            "type": "self-dispatch",
+                            "method": {
+                              "line": 8,
+                              "col": 13,
+                              "value": "print_string"
+                            },
+                            "args": [
+                              {
+                                "line": 8,
+                                "col": 27,
+                                "value": {
+                                  "type": "string",
+                                  "line": 8,
+                                  "col": 27,
+                                  "value": "a is lte to a"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "else": {
+                    "line": 9,
+                    "col": 14,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 10,
+                          "col": 13,
+                          "value": {
+                            "type": "self-dispatch",
+                            "method": {
+                              "line": 10,
+                              "col": 13,
+                              "value": "print_string"
+                            },
+                            "args": [
+                              {
+                                "line": 10,
+                                "col": 27,
+                                "value": {
+                                  "type": "string",
+                                  "line": 10,
+                                  "col": 27,
+                                  "value": "a is not lte to a"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "line": 13,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 13, "col": 9, "value": "print_string" },
+                  "args": [
+                    {
+                      "line": 13,
+                      "col": 23,
+                      "value": {
+                        "type": "string",
+                        "line": 13,
+                        "col": 23,
+                        "value": "\\n"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 15,
+                "col": 9,
+                "value": {
+                  "type": "if",
+                  "guard": {
+                    "line": 15,
+                    "col": 13,
+                    "value": {
+                      "type": "lte",
+                      "lhs": {
+                        "line": 15,
+                        "col": 13,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 15, "col": 13, "value": "a" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 15,
+                        "col": 18,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 15, "col": 18, "value": "b" }
+                        }
+                      }
+                    }
+                  },
+                  "then": {
+                    "line": 15,
+                    "col": 21,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 16,
+                          "col": 13,
+                          "value": {
+                            "type": "self-dispatch",
+                            "method": {
+                              "line": 16,
+                              "col": 13,
+                              "value": "print_string"
+                            },
+                            "args": [
+                              {
+                                "line": 16,
+                                "col": 27,
+                                "value": {
+                                  "type": "string",
+                                  "line": 16,
+                                  "col": 27,
+                                  "value": "a is lte b"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "else": {
+                    "line": 17,
+                    "col": 14,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 18,
+                          "col": 13,
+                          "value": {
+                            "type": "self-dispatch",
+                            "method": {
+                              "line": 18,
+                              "col": 13,
+                              "value": "print_string"
+                            },
+                            "args": [
+                              {
+                                "line": 18,
+                                "col": 27,
+                                "value": {
+                                  "type": "string",
+                                  "line": 18,
+                                  "col": 27,
+                                  "value": "a is not lte b"
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

@@ -1,0 +1,674 @@
+[
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [
+      {
+        "name": { "line": 5, "col": 9, "value": "out" },
+        "type": "member",
+        "init": {
+          "line": 5,
+          "col": 15,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 6,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 6, "col": 9, "value": "print_string" },
+                  "args": [
+                    {
+                      "line": 6,
+                      "col": 23,
+                      "value": {
+                        "type": "string",
+                        "line": 6,
+                        "col": 23,
+                        "value": "2 is trivially prime.\\n"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 7,
+                "col": 9,
+                "value": {
+                  "type": "number",
+                  "line": 7,
+                  "col": 9,
+                  "value": 2
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": { "line": 11, "col": 9, "value": "testee" },
+        "type": "member",
+        "init": {
+          "line": 11,
+          "col": 18,
+          "value": {
+            "type": "identifier",
+            "value": { "line": 11, "col": 18, "value": "out" }
+          }
+        }
+      },
+      {
+        "name": { "line": 14, "col": 9, "value": "divisor" },
+        "type": "member",
+        "init": {
+          "line": 14,
+          "col": 19,
+          "value": { "type": "number", "line": 14, "col": 19, "value": 0 }
+        }
+      },
+      {
+        "name": { "line": 17, "col": 9, "value": "stop" },
+        "type": "member",
+        "init": {
+          "line": 17,
+          "col": 16,
+          "value": { "type": "number", "line": 17, "col": 16, "value": 500 }
+        }
+      },
+      {
+        "name": { "line": 20, "col": 9, "value": "m" },
+        "type": "member",
+        "init": {
+          "line": 20,
+          "col": 13,
+          "value": {
+            "type": "while",
+            "guard": {
+              "line": 20,
+              "col": 19,
+              "value": { "type": "bool", "value": true }
+            },
+            "body": {
+              "line": 20,
+              "col": 25,
+              "value": {
+                "type": "block",
+                "body": [
+                  {
+                    "line": 21,
+                    "col": 9,
+                    "value": {
+                      "type": "assign",
+                      "lhs": { "line": 21, "col": 9, "value": "testee" },
+                      "rhs": {
+                        "line": 21,
+                        "col": 18,
+                        "value": {
+                          "type": "plus",
+                          "lhs": {
+                            "line": 21,
+                            "col": 18,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 21,
+                                "col": 18,
+                                "value": "testee"
+                              }
+                            }
+                          },
+                          "rhs": {
+                            "line": 21,
+                            "col": 27,
+                            "value": {
+                              "type": "number",
+                              "line": 21,
+                              "col": 27,
+                              "value": 1
+                            }
+                          }
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "line": 22,
+                    "col": 9,
+                    "value": {
+                      "type": "assign",
+                      "lhs": { "line": 22, "col": 9, "value": "divisor" },
+                      "rhs": {
+                        "line": 22,
+                        "col": 19,
+                        "value": {
+                          "type": "number",
+                          "line": 22,
+                          "col": 19,
+                          "value": 2
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "line": 24,
+                    "col": 9,
+                    "value": {
+                      "type": "while",
+                      "guard": {
+                        "line": 25,
+                        "col": 13,
+                        "value": {
+                          "type": "if",
+                          "guard": {
+                            "line": 25,
+                            "col": 17,
+                            "value": {
+                              "type": "lt",
+                              "lhs": {
+                                "line": 25,
+                                "col": 17,
+                                "value": {
+                                  "type": "identifier",
+                                  "value": {
+                                    "line": 25,
+                                    "col": 17,
+                                    "value": "testee"
+                                  }
+                                }
+                              },
+                              "rhs": {
+                                "line": 25,
+                                "col": 26,
+                                "value": {
+                                  "type": "times",
+                                  "lhs": {
+                                    "line": 25,
+                                    "col": 26,
+                                    "value": {
+                                      "type": "identifier",
+                                      "value": {
+                                        "line": 25,
+                                        "col": 26,
+                                        "value": "divisor"
+                                      }
+                                    }
+                                  },
+                                  "rhs": {
+                                    "line": 25,
+                                    "col": 36,
+                                    "value": {
+                                      "type": "identifier",
+                                      "value": {
+                                        "line": 25,
+                                        "col": 36,
+                                        "value": "divisor"
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          },
+                          "then": {
+                            "line": 25,
+                            "col": 45,
+                            "value": {
+                              "type": "block",
+                              "body": [
+                                {
+                                  "line": 26,
+                                  "col": 17,
+                                  "value": { "type": "bool", "value": false }
+                                }
+                              ]
+                            }
+                          },
+                          "else": {
+                            "line": 27,
+                            "col": 20,
+                            "value": {
+                              "type": "block",
+                              "body": [
+                                {
+                                  "line": 28,
+                                  "col": 17,
+                                  "value": {
+                                    "type": "if",
+                                    "guard": {
+                                      "line": 28,
+                                      "col": 21,
+                                      "value": {
+                                        "type": "equals",
+                                        "lhs": {
+                                          "line": 28,
+                                          "col": 21,
+                                          "value": {
+                                            "type": "minus",
+                                            "lhs": {
+                                              "line": 28,
+                                              "col": 21,
+                                              "value": {
+                                                "type": "identifier",
+                                                "value": {
+                                                  "line": 28,
+                                                  "col": 21,
+                                                  "value": "testee"
+                                                }
+                                              }
+                                            },
+                                            "rhs": {
+                                              "line": 28,
+                                              "col": 30,
+                                              "value": {
+                                                "type": "times",
+                                                "lhs": {
+                                                  "line": 28,
+                                                  "col": 30,
+                                                  "value": {
+                                                    "type": "identifier",
+                                                    "value": {
+                                                      "line": 28,
+                                                      "col": 30,
+                                                      "value": "divisor"
+                                                    }
+                                                  }
+                                                },
+                                                "rhs": {
+                                                  "line": 28,
+                                                  "col": 39,
+                                                  "value": {
+                                                    "type": "divide",
+                                                    "lhs": {
+                                                      "line": 28,
+                                                      "col": 39,
+                                                      "value": {
+                                                        "type": "identifier",
+                                                        "value": {
+                                                          "line": 28,
+                                                          "col": 39,
+                                                          "value": "testee"
+                                                        }
+                                                      }
+                                                    },
+                                                    "rhs": {
+                                                      "line": 28,
+                                                      "col": 46,
+                                                      "value": {
+                                                        "type": "identifier",
+                                                        "value": {
+                                                          "line": 28,
+                                                          "col": 46,
+                                                          "value": "divisor"
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          }
+                                        },
+                                        "rhs": {
+                                          "line": 28,
+                                          "col": 58,
+                                          "value": {
+                                            "type": "number",
+                                            "line": 28,
+                                            "col": 58,
+                                            "value": 0
+                                          }
+                                        }
+                                      }
+                                    },
+                                    "then": {
+                                      "line": 28,
+                                      "col": 61,
+                                      "value": {
+                                        "type": "block",
+                                        "body": [
+                                          {
+                                            "line": 29,
+                                            "col": 21,
+                                            "value": {
+                                              "type": "bool",
+                                              "value": false
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    },
+                                    "else": {
+                                      "line": 30,
+                                      "col": 24,
+                                      "value": {
+                                        "type": "block",
+                                        "body": [
+                                          {
+                                            "line": 31,
+                                            "col": 21,
+                                            "value": {
+                                              "type": "bool",
+                                              "value": true
+                                            }
+                                          }
+                                        ]
+                                      }
+                                    }
+                                  }
+                                }
+                              ]
+                            }
+                          }
+                        }
+                      },
+                      "body": {
+                        "line": 34,
+                        "col": 11,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 35,
+                              "col": 13,
+                              "value": {
+                                "type": "assign",
+                                "lhs": {
+                                  "line": 35,
+                                  "col": 13,
+                                  "value": "divisor"
+                                },
+                                "rhs": {
+                                  "line": 35,
+                                  "col": 23,
+                                  "value": {
+                                    "type": "plus",
+                                    "lhs": {
+                                      "line": 35,
+                                      "col": 23,
+                                      "value": {
+                                        "type": "identifier",
+                                        "value": {
+                                          "line": 35,
+                                          "col": 23,
+                                          "value": "divisor"
+                                        }
+                                      }
+                                    },
+                                    "rhs": {
+                                      "line": 35,
+                                      "col": 33,
+                                      "value": {
+                                        "type": "number",
+                                        "line": 35,
+                                        "col": 33,
+                                        "value": 1
+                                      }
+                                    }
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "line": 39,
+                    "col": 9,
+                    "value": {
+                      "type": "if",
+                      "guard": {
+                        "line": 39,
+                        "col": 13,
+                        "value": {
+                          "type": "lt",
+                          "lhs": {
+                            "line": 39,
+                            "col": 13,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 39,
+                                "col": 13,
+                                "value": "testee"
+                              }
+                            }
+                          },
+                          "rhs": {
+                            "line": 39,
+                            "col": 22,
+                            "value": {
+                              "type": "times",
+                              "lhs": {
+                                "line": 39,
+                                "col": 22,
+                                "value": {
+                                  "type": "identifier",
+                                  "value": {
+                                    "line": 39,
+                                    "col": 22,
+                                    "value": "divisor"
+                                  }
+                                }
+                              },
+                              "rhs": {
+                                "line": 39,
+                                "col": 32,
+                                "value": {
+                                  "type": "identifier",
+                                  "value": {
+                                    "line": 39,
+                                    "col": 32,
+                                    "value": "divisor"
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "then": {
+                        "line": 39,
+                        "col": 41,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 41,
+                              "col": 13,
+                              "value": {
+                                "type": "assign",
+                                "lhs": {
+                                  "line": 41,
+                                  "col": 13,
+                                  "value": "out"
+                                },
+                                "rhs": {
+                                  "line": 41,
+                                  "col": 19,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 41,
+                                      "col": 19,
+                                      "value": "testee"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            {
+                              "line": 42,
+                              "col": 13,
+                              "value": {
+                                "type": "self-dispatch",
+                                "method": {
+                                  "line": 42,
+                                  "col": 13,
+                                  "value": "print_int"
+                                },
+                                "args": [
+                                  {
+                                    "line": 42,
+                                    "col": 23,
+                                    "value": {
+                                      "type": "identifier",
+                                      "value": {
+                                        "line": 42,
+                                        "col": 23,
+                                        "value": "out"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            {
+                              "line": 43,
+                              "col": 13,
+                              "value": {
+                                "type": "self-dispatch",
+                                "method": {
+                                  "line": 43,
+                                  "col": 13,
+                                  "value": "print_string"
+                                },
+                                "args": [
+                                  {
+                                    "line": 43,
+                                    "col": 27,
+                                    "value": {
+                                      "type": "string",
+                                      "line": 43,
+                                      "col": 27,
+                                      "value": " is prime.\\n"
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "else": {
+                        "line": 44,
+                        "col": 16,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 46,
+                              "col": 13,
+                              "value": {
+                                "type": "number",
+                                "line": 46,
+                                "col": 13,
+                                "value": 0
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  },
+                  {
+                    "line": 49,
+                    "col": 9,
+                    "value": {
+                      "type": "if",
+                      "guard": {
+                        "line": 49,
+                        "col": 13,
+                        "value": {
+                          "type": "lte",
+                          "lhs": {
+                            "line": 49,
+                            "col": 13,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 49,
+                                "col": 13,
+                                "value": "stop"
+                              }
+                            }
+                          },
+                          "rhs": {
+                            "line": 49,
+                            "col": 21,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 49,
+                                "col": 21,
+                                "value": "testee"
+                              }
+                            }
+                          }
+                        }
+                      },
+                      "then": {
+                        "line": 49,
+                        "col": 29,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 51,
+                              "col": 14,
+                              "value": {
+                                "type": "dynamic-dispatch",
+                                "object": {
+                                  "line": 51,
+                                  "col": 14,
+                                  "value": {
+                                    "type": "string",
+                                    "line": 51,
+                                    "col": 14,
+                                    "value": "halt"
+                                  }
+                                },
+                                "method": {
+                                  "line": 51,
+                                  "col": 20,
+                                  "value": "abort"
+                                },
+                                "args": []
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "else": {
+                        "line": 52,
+                        "col": 16,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 53,
+                              "col": 14,
+                              "value": {
+                                "type": "string",
+                                "line": 53,
+                                "col": 14,
+                                "value": "continue"
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      }
+    ],
+    "methods": []
+  }
+]

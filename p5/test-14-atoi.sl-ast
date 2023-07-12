@@ -1,0 +1,3048 @@
+[
+  {
+    "class_name": "A2I",
+    "members": [],
+    "methods": [
+      {
+        "name": { "line": 10, "col": 5, "value": "c2i" },
+        "type": "method",
+        "parameters": [ { "line": 10, "col": 9, "value": "char" } ],
+        "body": {
+          "line": 10,
+          "col": 15,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 11,
+                "col": 9,
+                "value": {
+                  "type": "if",
+                  "guard": {
+                    "line": 11,
+                    "col": 13,
+                    "value": {
+                      "type": "equals",
+                      "lhs": {
+                        "line": 11,
+                        "col": 13,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 11, "col": 13, "value": "char" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 11,
+                        "col": 22,
+                        "value": {
+                          "type": "string",
+                          "line": 11,
+                          "col": 22,
+                          "value": "0"
+                        }
+                      }
+                    }
+                  },
+                  "then": {
+                    "line": 11,
+                    "col": 26,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 12,
+                          "col": 13,
+                          "value": {
+                            "type": "number",
+                            "line": 12,
+                            "col": 13,
+                            "value": 0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "else": {
+                    "line": 13,
+                    "col": 16,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 14,
+                          "col": 13,
+                          "value": {
+                            "type": "if",
+                            "guard": {
+                              "line": 14,
+                              "col": 17,
+                              "value": {
+                                "type": "equals",
+                                "lhs": {
+                                  "line": 14,
+                                  "col": 17,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 14,
+                                      "col": 17,
+                                      "value": "char"
+                                    }
+                                  }
+                                },
+                                "rhs": {
+                                  "line": 14,
+                                  "col": 26,
+                                  "value": {
+                                    "type": "string",
+                                    "line": 14,
+                                    "col": 26,
+                                    "value": "1"
+                                  }
+                                }
+                              }
+                            },
+                            "then": {
+                              "line": 14,
+                              "col": 30,
+                              "value": {
+                                "type": "block",
+                                "body": [
+                                  {
+                                    "line": 15,
+                                    "col": 17,
+                                    "value": {
+                                      "type": "number",
+                                      "line": 15,
+                                      "col": 17,
+                                      "value": 1
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "else": {
+                              "line": 16,
+                              "col": 20,
+                              "value": {
+                                "type": "block",
+                                "body": [
+                                  {
+                                    "line": 17,
+                                    "col": 17,
+                                    "value": {
+                                      "type": "if",
+                                      "guard": {
+                                        "line": 17,
+                                        "col": 21,
+                                        "value": {
+                                          "type": "equals",
+                                          "lhs": {
+                                            "line": 17,
+                                            "col": 21,
+                                            "value": {
+                                              "type": "identifier",
+                                              "value": {
+                                                "line": 17,
+                                                "col": 21,
+                                                "value": "char"
+                                              }
+                                            }
+                                          },
+                                          "rhs": {
+                                            "line": 17,
+                                            "col": 30,
+                                            "value": {
+                                              "type": "string",
+                                              "line": 17,
+                                              "col": 30,
+                                              "value": "2"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "then": {
+                                        "line": 17,
+                                        "col": 34,
+                                        "value": {
+                                          "type": "block",
+                                          "body": [
+                                            {
+                                              "line": 18,
+                                              "col": 21,
+                                              "value": {
+                                                "type": "number",
+                                                "line": 18,
+                                                "col": 21,
+                                                "value": 2
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "else": {
+                                        "line": 19,
+                                        "col": 24,
+                                        "value": {
+                                          "type": "block",
+                                          "body": [
+                                            {
+                                              "line": 20,
+                                              "col": 21,
+                                              "value": {
+                                                "type": "if",
+                                                "guard": {
+                                                  "line": 20,
+                                                  "col": 25,
+                                                  "value": {
+                                                    "type": "equals",
+                                                    "lhs": {
+                                                      "line": 20,
+                                                      "col": 25,
+                                                      "value": {
+                                                        "type": "identifier",
+                                                        "value": {
+                                                          "line": 20,
+                                                          "col": 25,
+                                                          "value": "char"
+                                                        }
+                                                      }
+                                                    },
+                                                    "rhs": {
+                                                      "line": 20,
+                                                      "col": 34,
+                                                      "value": {
+                                                        "type": "string",
+                                                        "line": 20,
+                                                        "col": 34,
+                                                        "value": "3"
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "then": {
+                                                  "line": 20,
+                                                  "col": 38,
+                                                  "value": {
+                                                    "type": "block",
+                                                    "body": [
+                                                      {
+                                                        "line": 21,
+                                                        "col": 25,
+                                                        "value": {
+                                                          "type": "number",
+                                                          "line": 21,
+                                                          "col": 25,
+                                                          "value": 3
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                "else": {
+                                                  "line": 22,
+                                                  "col": 28,
+                                                  "value": {
+                                                    "type": "block",
+                                                    "body": [
+                                                      {
+                                                        "line": 23,
+                                                        "col": 25,
+                                                        "value": {
+                                                          "type": "if",
+                                                          "guard": {
+                                                            "line": 23,
+                                                            "col": 29,
+                                                            "value": {
+                                                              "type":
+                                                                "equals",
+                                                              "lhs": {
+                                                                "line": 23,
+                                                                "col": 29,
+                                                                "value": {
+                                                                  "type":
+                                                                    "identifier",
+                                                                  "value": {
+                                                                    "line":
+                                                                    23,
+                                                                    "col": 29,
+                                                                    "value":
+                                                                    "char"
+                                                                  }
+                                                                }
+                                                              },
+                                                              "rhs": {
+                                                                "line": 23,
+                                                                "col": 38,
+                                                                "value": {
+                                                                  "type":
+                                                                    "string",
+                                                                  "line": 23,
+                                                                  "col": 38,
+                                                                  "value":
+                                                                    "4"
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "then": {
+                                                            "line": 23,
+                                                            "col": 42,
+                                                            "value": {
+                                                              "type": "block",
+                                                              "body": [
+                                                                {
+                                                                  "line": 24,
+                                                                  "col": 29,
+                                                                  "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    24,
+                                                                    "col": 29,
+                                                                    "value":
+                                                                    4
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          "else": {
+                                                            "line": 25,
+                                                            "col": 32,
+                                                            "value": {
+                                                              "type": "block",
+                                                              "body": [
+                                                                {
+                                                                  "line": 26,
+                                                                  "col": 29,
+                                                                  "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    26,
+                                                                    "col": 33,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    26,
+                                                                    "col": 33,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    26,
+                                                                    "col": 33,
+                                                                    "value":
+                                                                    "char"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    26,
+                                                                    "col": 42,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    26,
+                                                                    "col": 42,
+                                                                    "value":
+                                                                    "5"
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    26,
+                                                                    "col": 46,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    27,
+                                                                    "col": 33,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    27,
+                                                                    "col": 33,
+                                                                    "value":
+                                                                    5
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    28,
+                                                                    "col": 36,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    29,
+                                                                    "col": 33,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    29,
+                                                                    "col": 37,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    29,
+                                                                    "col": 37,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    29,
+                                                                    "col": 37,
+                                                                    "value":
+                                                                    "char"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    29,
+                                                                    "col": 46,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    29,
+                                                                    "col": 46,
+                                                                    "value":
+                                                                    "6"
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    29,
+                                                                    "col": 50,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    30,
+                                                                    "col": 37,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    30,
+                                                                    "col": 37,
+                                                                    "value":
+                                                                    6
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    31,
+                                                                    "col": 40,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    32,
+                                                                    "col": 37,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    32,
+                                                                    "col": 41,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    32,
+                                                                    "col": 41,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    32,
+                                                                    "col": 41,
+                                                                    "value":
+                                                                    "char"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    32,
+                                                                    "col": 50,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    32,
+                                                                    "col": 50,
+                                                                    "value":
+                                                                    "7"
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    32,
+                                                                    "col": 54,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    33,
+                                                                    "col": 41,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    33,
+                                                                    "col": 41,
+                                                                    "value":
+                                                                    7
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    34,
+                                                                    "col": 44,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    35,
+                                                                    "col": 41,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    35,
+                                                                    "col": 45,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    35,
+                                                                    "col": 45,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    35,
+                                                                    "col": 45,
+                                                                    "value":
+                                                                    "char"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    35,
+                                                                    "col": 54,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    35,
+                                                                    "col": 54,
+                                                                    "value":
+                                                                    "8"
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    35,
+                                                                    "col": 58,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    36,
+                                                                    "col": 45,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    36,
+                                                                    "col": 45,
+                                                                    "value":
+                                                                    8
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    37,
+                                                                    "col": 48,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    38,
+                                                                    "col": 45,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    38,
+                                                                    "col": 49,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    38,
+                                                                    "col": 49,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    38,
+                                                                    "col": 49,
+                                                                    "value":
+                                                                    "char"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    38,
+                                                                    "col": 58,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    38,
+                                                                    "col": 58,
+                                                                    "value":
+                                                                    "9"
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    38,
+                                                                    "col": 62,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    39,
+                                                                    "col": 49,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    39,
+                                                                    "col": 49,
+                                                                    "value":
+                                                                    9
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    40,
+                                                                    "col": 52,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    41,
+                                                                    "col": 49,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "self-dispatch",
+                                                                    "method": {
+                                                                    "line":
+                                                                    41,
+                                                                    "col": 49,
+                                                                    "value":
+                                                                    "abort"
+                                                                    },
+                                                                    "args":
+                                                                    []
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": { "line": 57, "col": 5, "value": "i2c" },
+        "type": "method",
+        "parameters": [ { "line": 57, "col": 9, "value": "i" } ],
+        "body": {
+          "line": 57,
+          "col": 12,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 58,
+                "col": 9,
+                "value": {
+                  "type": "if",
+                  "guard": {
+                    "line": 58,
+                    "col": 13,
+                    "value": {
+                      "type": "equals",
+                      "lhs": {
+                        "line": 58,
+                        "col": 13,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 58, "col": 13, "value": "i" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 58,
+                        "col": 18,
+                        "value": {
+                          "type": "number",
+                          "line": 58,
+                          "col": 18,
+                          "value": 0
+                        }
+                      }
+                    }
+                  },
+                  "then": {
+                    "line": 58,
+                    "col": 21,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 59,
+                          "col": 14,
+                          "value": {
+                            "type": "string",
+                            "line": 59,
+                            "col": 14,
+                            "value": "0"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "else": {
+                    "line": 60,
+                    "col": 16,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 61,
+                          "col": 13,
+                          "value": {
+                            "type": "if",
+                            "guard": {
+                              "line": 61,
+                              "col": 17,
+                              "value": {
+                                "type": "equals",
+                                "lhs": {
+                                  "line": 61,
+                                  "col": 17,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 61,
+                                      "col": 17,
+                                      "value": "i"
+                                    }
+                                  }
+                                },
+                                "rhs": {
+                                  "line": 61,
+                                  "col": 22,
+                                  "value": {
+                                    "type": "number",
+                                    "line": 61,
+                                    "col": 22,
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            },
+                            "then": {
+                              "line": 61,
+                              "col": 25,
+                              "value": {
+                                "type": "block",
+                                "body": [
+                                  {
+                                    "line": 62,
+                                    "col": 18,
+                                    "value": {
+                                      "type": "string",
+                                      "line": 62,
+                                      "col": 18,
+                                      "value": "1"
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "else": {
+                              "line": 63,
+                              "col": 20,
+                              "value": {
+                                "type": "block",
+                                "body": [
+                                  {
+                                    "line": 64,
+                                    "col": 17,
+                                    "value": {
+                                      "type": "if",
+                                      "guard": {
+                                        "line": 64,
+                                        "col": 21,
+                                        "value": {
+                                          "type": "equals",
+                                          "lhs": {
+                                            "line": 64,
+                                            "col": 21,
+                                            "value": {
+                                              "type": "identifier",
+                                              "value": {
+                                                "line": 64,
+                                                "col": 21,
+                                                "value": "i"
+                                              }
+                                            }
+                                          },
+                                          "rhs": {
+                                            "line": 64,
+                                            "col": 26,
+                                            "value": {
+                                              "type": "number",
+                                              "line": 64,
+                                              "col": 26,
+                                              "value": 2
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "then": {
+                                        "line": 64,
+                                        "col": 29,
+                                        "value": {
+                                          "type": "block",
+                                          "body": [
+                                            {
+                                              "line": 65,
+                                              "col": 22,
+                                              "value": {
+                                                "type": "string",
+                                                "line": 65,
+                                                "col": 22,
+                                                "value": "2"
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "else": {
+                                        "line": 66,
+                                        "col": 24,
+                                        "value": {
+                                          "type": "block",
+                                          "body": [
+                                            {
+                                              "line": 67,
+                                              "col": 21,
+                                              "value": {
+                                                "type": "if",
+                                                "guard": {
+                                                  "line": 67,
+                                                  "col": 25,
+                                                  "value": {
+                                                    "type": "equals",
+                                                    "lhs": {
+                                                      "line": 67,
+                                                      "col": 25,
+                                                      "value": {
+                                                        "type": "identifier",
+                                                        "value": {
+                                                          "line": 67,
+                                                          "col": 25,
+                                                          "value": "i"
+                                                        }
+                                                      }
+                                                    },
+                                                    "rhs": {
+                                                      "line": 67,
+                                                      "col": 30,
+                                                      "value": {
+                                                        "type": "number",
+                                                        "line": 67,
+                                                        "col": 30,
+                                                        "value": 3
+                                                      }
+                                                    }
+                                                  }
+                                                },
+                                                "then": {
+                                                  "line": 67,
+                                                  "col": 33,
+                                                  "value": {
+                                                    "type": "block",
+                                                    "body": [
+                                                      {
+                                                        "line": 68,
+                                                        "col": 26,
+                                                        "value": {
+                                                          "type": "string",
+                                                          "line": 68,
+                                                          "col": 26,
+                                                          "value": "3"
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                },
+                                                "else": {
+                                                  "line": 69,
+                                                  "col": 28,
+                                                  "value": {
+                                                    "type": "block",
+                                                    "body": [
+                                                      {
+                                                        "line": 70,
+                                                        "col": 25,
+                                                        "value": {
+                                                          "type": "if",
+                                                          "guard": {
+                                                            "line": 70,
+                                                            "col": 29,
+                                                            "value": {
+                                                              "type":
+                                                                "equals",
+                                                              "lhs": {
+                                                                "line": 70,
+                                                                "col": 29,
+                                                                "value": {
+                                                                  "type":
+                                                                    "identifier",
+                                                                  "value": {
+                                                                    "line":
+                                                                    70,
+                                                                    "col": 29,
+                                                                    "value":
+                                                                    "i"
+                                                                  }
+                                                                }
+                                                              },
+                                                              "rhs": {
+                                                                "line": 70,
+                                                                "col": 34,
+                                                                "value": {
+                                                                  "type":
+                                                                    "number",
+                                                                  "line": 70,
+                                                                  "col": 34,
+                                                                  "value": 4
+                                                                }
+                                                              }
+                                                            }
+                                                          },
+                                                          "then": {
+                                                            "line": 70,
+                                                            "col": 37,
+                                                            "value": {
+                                                              "type": "block",
+                                                              "body": [
+                                                                {
+                                                                  "line": 71,
+                                                                  "col": 30,
+                                                                  "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    71,
+                                                                    "col": 30,
+                                                                    "value":
+                                                                    "4"
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          },
+                                                          "else": {
+                                                            "line": 72,
+                                                            "col": 32,
+                                                            "value": {
+                                                              "type": "block",
+                                                              "body": [
+                                                                {
+                                                                  "line": 73,
+                                                                  "col": 29,
+                                                                  "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    73,
+                                                                    "col": 33,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    73,
+                                                                    "col": 33,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    73,
+                                                                    "col": 33,
+                                                                    "value":
+                                                                    "i"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    73,
+                                                                    "col": 38,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    73,
+                                                                    "col": 38,
+                                                                    "value":
+                                                                    5
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    73,
+                                                                    "col": 41,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    74,
+                                                                    "col": 34,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    74,
+                                                                    "col": 34,
+                                                                    "value":
+                                                                    "5"
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    75,
+                                                                    "col": 36,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    76,
+                                                                    "col": 33,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    76,
+                                                                    "col": 37,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    76,
+                                                                    "col": 37,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    76,
+                                                                    "col": 37,
+                                                                    "value":
+                                                                    "i"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    76,
+                                                                    "col": 42,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    76,
+                                                                    "col": 42,
+                                                                    "value":
+                                                                    6
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    76,
+                                                                    "col": 45,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    77,
+                                                                    "col": 38,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    77,
+                                                                    "col": 38,
+                                                                    "value":
+                                                                    "6"
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    78,
+                                                                    "col": 40,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    79,
+                                                                    "col": 37,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    79,
+                                                                    "col": 41,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    79,
+                                                                    "col": 41,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    79,
+                                                                    "col": 41,
+                                                                    "value":
+                                                                    "i"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    79,
+                                                                    "col": 46,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    79,
+                                                                    "col": 46,
+                                                                    "value":
+                                                                    7
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    79,
+                                                                    "col": 49,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    80,
+                                                                    "col": 42,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    80,
+                                                                    "col": 42,
+                                                                    "value":
+                                                                    "7"
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    81,
+                                                                    "col": 44,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    82,
+                                                                    "col": 41,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    82,
+                                                                    "col": 45,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    82,
+                                                                    "col": 45,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    82,
+                                                                    "col": 45,
+                                                                    "value":
+                                                                    "i"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    82,
+                                                                    "col": 50,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    82,
+                                                                    "col": 50,
+                                                                    "value":
+                                                                    8
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    82,
+                                                                    "col": 53,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    83,
+                                                                    "col": 46,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    83,
+                                                                    "col": 46,
+                                                                    "value":
+                                                                    "8"
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    84,
+                                                                    "col": 48,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    85,
+                                                                    "col": 45,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "if",
+                                                                    "guard": {
+                                                                    "line":
+                                                                    85,
+                                                                    "col": 49,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "equals",
+                                                                    "lhs": {
+                                                                    "line":
+                                                                    85,
+                                                                    "col": 49,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "identifier",
+                                                                    "value": {
+                                                                    "line":
+                                                                    85,
+                                                                    "col": 49,
+                                                                    "value":
+                                                                    "i"
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "rhs": {
+                                                                    "line":
+                                                                    85,
+                                                                    "col": 54,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "number",
+                                                                    "line":
+                                                                    85,
+                                                                    "col": 54,
+                                                                    "value":
+                                                                    9
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    },
+                                                                    "then": {
+                                                                    "line":
+                                                                    85,
+                                                                    "col": 57,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    86,
+                                                                    "col": 50,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "string",
+                                                                    "line":
+                                                                    86,
+                                                                    "col": 50,
+                                                                    "value":
+                                                                    "9"
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    },
+                                                                    "else": {
+                                                                    "line":
+                                                                    87,
+                                                                    "col": 52,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "block",
+                                                                    "body": [
+                                                                    {
+                                                                    "line":
+                                                                    88,
+                                                                    "col": 49,
+                                                                    "value": {
+                                                                    "type":
+                                                                    "self-dispatch",
+                                                                    "method": {
+                                                                    "line":
+                                                                    88,
+                                                                    "col": 49,
+                                                                    "value":
+                                                                    "abort"
+                                                                    },
+                                                                    "args":
+                                                                    []
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    }
+                                                                    ]
+                                                                    }
+                                                                    }
+                                                                  }
+                                                                }
+                                                              ]
+                                                            }
+                                                          }
+                                                        }
+                                                      }
+                                                    ]
+                                                  }
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": { "line": 102, "col": 5, "value": "a2i" },
+        "type": "method",
+        "parameters": [ { "line": 102, "col": 9, "value": "s" } ],
+        "body": {
+          "line": 102,
+          "col": 12,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 103,
+                "col": 9,
+                "value": {
+                  "type": "if",
+                  "guard": {
+                    "line": 103,
+                    "col": 13,
+                    "value": {
+                      "type": "equals",
+                      "lhs": {
+                        "line": 103,
+                        "col": 13,
+                        "value": {
+                          "type": "dynamic-dispatch",
+                          "object": {
+                            "line": 103,
+                            "col": 13,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 103,
+                                "col": 13,
+                                "value": "s"
+                              }
+                            }
+                          },
+                          "method": {
+                            "line": 103,
+                            "col": 15,
+                            "value": "length"
+                          },
+                          "args": []
+                        }
+                      },
+                      "rhs": {
+                        "line": 103,
+                        "col": 27,
+                        "value": {
+                          "type": "number",
+                          "line": 103,
+                          "col": 27,
+                          "value": 0
+                        }
+                      }
+                    }
+                  },
+                  "then": {
+                    "line": 103,
+                    "col": 30,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 103,
+                          "col": 32,
+                          "value": {
+                            "type": "number",
+                            "line": 103,
+                            "col": 32,
+                            "value": 0
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "else": {
+                    "line": 104,
+                    "col": 14,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 105,
+                          "col": 13,
+                          "value": {
+                            "type": "let",
+                            "lhs": { "line": 105, "col": 17, "value": "fst" },
+                            "rhs": {
+                              "line": 105,
+                              "col": 23,
+                              "value": {
+                                "type": "dynamic-dispatch",
+                                "object": {
+                                  "line": 105,
+                                  "col": 23,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 105,
+                                      "col": 23,
+                                      "value": "s"
+                                    }
+                                  }
+                                },
+                                "method": {
+                                  "line": 105,
+                                  "col": 25,
+                                  "value": "substr"
+                                },
+                                "args": [
+                                  {
+                                    "line": 105,
+                                    "col": 32,
+                                    "value": {
+                                      "type": "number",
+                                      "line": 105,
+                                      "col": 32,
+                                      "value": 0
+                                    }
+                                  },
+                                  {
+                                    "line": 105,
+                                    "col": 34,
+                                    "value": {
+                                      "type": "number",
+                                      "line": 105,
+                                      "col": 34,
+                                      "value": 1
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "line": 106,
+                          "col": 13,
+                          "value": {
+                            "type": "let",
+                            "lhs": { "line": 106, "col": 17, "value": "rst" },
+                            "rhs": {
+                              "line": 106,
+                              "col": 23,
+                              "value": {
+                                "type": "dynamic-dispatch",
+                                "object": {
+                                  "line": 106,
+                                  "col": 23,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 106,
+                                      "col": 23,
+                                      "value": "s"
+                                    }
+                                  }
+                                },
+                                "method": {
+                                  "line": 106,
+                                  "col": 25,
+                                  "value": "substr"
+                                },
+                                "args": [
+                                  {
+                                    "line": 106,
+                                    "col": 32,
+                                    "value": {
+                                      "type": "number",
+                                      "line": 106,
+                                      "col": 32,
+                                      "value": 1
+                                    }
+                                  },
+                                  {
+                                    "line": 106,
+                                    "col": 35,
+                                    "value": {
+                                      "type": "minus",
+                                      "lhs": {
+                                        "line": 106,
+                                        "col": 35,
+                                        "value": {
+                                          "type": "dynamic-dispatch",
+                                          "object": {
+                                            "line": 106,
+                                            "col": 35,
+                                            "value": {
+                                              "type": "identifier",
+                                              "value": {
+                                                "line": 106,
+                                                "col": 35,
+                                                "value": "s"
+                                              }
+                                            }
+                                          },
+                                          "method": {
+                                            "line": 106,
+                                            "col": 37,
+                                            "value": "length"
+                                          },
+                                          "args": []
+                                        }
+                                      },
+                                      "rhs": {
+                                        "line": 106,
+                                        "col": 46,
+                                        "value": {
+                                          "type": "number",
+                                          "line": 106,
+                                          "col": 46,
+                                          "value": 1
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "line": 107,
+                          "col": 13,
+                          "value": {
+                            "type": "if",
+                            "guard": {
+                              "line": 107,
+                              "col": 17,
+                              "value": {
+                                "type": "equals",
+                                "lhs": {
+                                  "line": 107,
+                                  "col": 17,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 107,
+                                      "col": 17,
+                                      "value": "fst"
+                                    }
+                                  }
+                                },
+                                "rhs": {
+                                  "line": 107,
+                                  "col": 25,
+                                  "value": {
+                                    "type": "string",
+                                    "line": 107,
+                                    "col": 25,
+                                    "value": "-"
+                                  }
+                                }
+                              }
+                            },
+                            "then": {
+                              "line": 107,
+                              "col": 29,
+                              "value": {
+                                "type": "block",
+                                "body": [
+                                  {
+                                    "line": 108,
+                                    "col": 17,
+                                    "value": {
+                                      "type": "negate",
+                                      "body": {
+                                        "line": 108,
+                                        "col": 18,
+                                        "value": {
+                                          "type": "self-dispatch",
+                                          "method": {
+                                            "line": 108,
+                                            "col": 18,
+                                            "value": "a2i_helper"
+                                          },
+                                          "args": [
+                                            {
+                                              "line": 108,
+                                              "col": 29,
+                                              "value": {
+                                                "type": "identifier",
+                                                "value": {
+                                                  "line": 108,
+                                                  "col": 29,
+                                                  "value": "rst"
+                                                }
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "else": {
+                              "line": 109,
+                              "col": 20,
+                              "value": {
+                                "type": "block",
+                                "body": [
+                                  {
+                                    "line": 110,
+                                    "col": 17,
+                                    "value": {
+                                      "type": "if",
+                                      "guard": {
+                                        "line": 110,
+                                        "col": 21,
+                                        "value": {
+                                          "type": "equals",
+                                          "lhs": {
+                                            "line": 110,
+                                            "col": 21,
+                                            "value": {
+                                              "type": "dynamic-dispatch",
+                                              "object": {
+                                                "line": 110,
+                                                "col": 21,
+                                                "value": {
+                                                  "type": "identifier",
+                                                  "value": {
+                                                    "line": 110,
+                                                    "col": 21,
+                                                    "value": "s"
+                                                  }
+                                                }
+                                              },
+                                              "method": {
+                                                "line": 110,
+                                                "col": 23,
+                                                "value": "substr"
+                                              },
+                                              "args": [
+                                                {
+                                                  "line": 110,
+                                                  "col": 30,
+                                                  "value": {
+                                                    "type": "number",
+                                                    "line": 110,
+                                                    "col": 30,
+                                                    "value": 0
+                                                  }
+                                                },
+                                                {
+                                                  "line": 110,
+                                                  "col": 32,
+                                                  "value": {
+                                                    "type": "number",
+                                                    "line": 110,
+                                                    "col": 32,
+                                                    "value": 1
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          },
+                                          "rhs": {
+                                            "line": 110,
+                                            "col": 39,
+                                            "value": {
+                                              "type": "string",
+                                              "line": 110,
+                                              "col": 39,
+                                              "value": "+"
+                                            }
+                                          }
+                                        }
+                                      },
+                                      "then": {
+                                        "line": 110,
+                                        "col": 43,
+                                        "value": {
+                                          "type": "block",
+                                          "body": [
+                                            {
+                                              "line": 111,
+                                              "col": 21,
+                                              "value": {
+                                                "type": "self-dispatch",
+                                                "method": {
+                                                  "line": 111,
+                                                  "col": 21,
+                                                  "value": "a2i_helper"
+                                                },
+                                                "args": [
+                                                  {
+                                                    "line": 111,
+                                                    "col": 32,
+                                                    "value": {
+                                                      "type": "identifier",
+                                                      "value": {
+                                                        "line": 111,
+                                                        "col": 32,
+                                                        "value": "rst"
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      },
+                                      "else": {
+                                        "line": 112,
+                                        "col": 24,
+                                        "value": {
+                                          "type": "block",
+                                          "body": [
+                                            {
+                                              "line": 113,
+                                              "col": 21,
+                                              "value": {
+                                                "type": "self-dispatch",
+                                                "method": {
+                                                  "line": 113,
+                                                  "col": 21,
+                                                  "value": "a2i_helper"
+                                                },
+                                                "args": [
+                                                  {
+                                                    "line": 113,
+                                                    "col": 32,
+                                                    "value": {
+                                                      "type": "identifier",
+                                                      "value": {
+                                                        "line": 113,
+                                                        "col": 32,
+                                                        "value": "s"
+                                                      }
+                                                    }
+                                                  }
+                                                ]
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": { "line": 120, "col": 5, "value": "a2i_helper" },
+        "type": "method",
+        "parameters": [ { "line": 120, "col": 16, "value": "s" } ],
+        "body": {
+          "line": 120,
+          "col": 19,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 121,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 121, "col": 13, "value": "int" },
+                  "rhs": {
+                    "line": 121,
+                    "col": 19,
+                    "value": {
+                      "type": "number",
+                      "line": 121,
+                      "col": 19,
+                      "value": 0
+                    }
+                  }
+                }
+              },
+              {
+                "line": 122,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 122, "col": 13, "value": "j" },
+                  "rhs": {
+                    "line": 122,
+                    "col": 17,
+                    "value": {
+                      "type": "dynamic-dispatch",
+                      "object": {
+                        "line": 122,
+                        "col": 17,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 122, "col": 17, "value": "s" }
+                        }
+                      },
+                      "method": { "line": 122, "col": 19, "value": "length" },
+                      "args": []
+                    }
+                  }
+                }
+              },
+              {
+                "line": 123,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 123, "col": 13, "value": "i" },
+                  "rhs": {
+                    "line": 123,
+                    "col": 17,
+                    "value": {
+                      "type": "number",
+                      "line": 123,
+                      "col": 17,
+                      "value": 0
+                    }
+                  }
+                }
+              },
+              {
+                "line": 124,
+                "col": 9,
+                "value": {
+                  "type": "while",
+                  "guard": {
+                    "line": 124,
+                    "col": 16,
+                    "value": {
+                      "type": "lt",
+                      "lhs": {
+                        "line": 124,
+                        "col": 16,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 124, "col": 16, "value": "i" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 124,
+                        "col": 20,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 124, "col": 20, "value": "j" }
+                        }
+                      }
+                    }
+                  },
+                  "body": {
+                    "line": 124,
+                    "col": 23,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 126,
+                          "col": 13,
+                          "value": {
+                            "type": "assign",
+                            "lhs": { "line": 126, "col": 13, "value": "int" },
+                            "rhs": {
+                              "line": 126,
+                              "col": 19,
+                              "value": {
+                                "type": "plus",
+                                "lhs": {
+                                  "line": 126,
+                                  "col": 19,
+                                  "value": {
+                                    "type": "times",
+                                    "lhs": {
+                                      "line": 126,
+                                      "col": 19,
+                                      "value": {
+                                        "type": "identifier",
+                                        "value": {
+                                          "line": 126,
+                                          "col": 19,
+                                          "value": "int"
+                                        }
+                                      }
+                                    },
+                                    "rhs": {
+                                      "line": 126,
+                                      "col": 25,
+                                      "value": {
+                                        "type": "number",
+                                        "line": 126,
+                                        "col": 25,
+                                        "value": 10
+                                      }
+                                    }
+                                  }
+                                },
+                                "rhs": {
+                                  "line": 126,
+                                  "col": 30,
+                                  "value": {
+                                    "type": "self-dispatch",
+                                    "method": {
+                                      "line": 126,
+                                      "col": 30,
+                                      "value": "c2i"
+                                    },
+                                    "args": [
+                                      {
+                                        "line": 126,
+                                        "col": 34,
+                                        "value": {
+                                          "type": "dynamic-dispatch",
+                                          "object": {
+                                            "line": 126,
+                                            "col": 34,
+                                            "value": {
+                                              "type": "identifier",
+                                              "value": {
+                                                "line": 126,
+                                                "col": 34,
+                                                "value": "s"
+                                              }
+                                            }
+                                          },
+                                          "method": {
+                                            "line": 126,
+                                            "col": 36,
+                                            "value": "substr"
+                                          },
+                                          "args": [
+                                            {
+                                              "line": 126,
+                                              "col": 43,
+                                              "value": {
+                                                "type": "identifier",
+                                                "value": {
+                                                  "line": 126,
+                                                  "col": 43,
+                                                  "value": "i"
+                                                }
+                                              }
+                                            },
+                                            {
+                                              "line": 126,
+                                              "col": 46,
+                                              "value": {
+                                                "type": "number",
+                                                "line": 126,
+                                                "col": 46,
+                                                "value": 1
+                                              }
+                                            }
+                                          ]
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "line": 127,
+                          "col": 13,
+                          "value": {
+                            "type": "assign",
+                            "lhs": { "line": 127, "col": 13, "value": "i" },
+                            "rhs": {
+                              "line": 127,
+                              "col": 17,
+                              "value": {
+                                "type": "plus",
+                                "lhs": {
+                                  "line": 127,
+                                  "col": 17,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 127,
+                                      "col": 17,
+                                      "value": "i"
+                                    }
+                                  }
+                                },
+                                "rhs": {
+                                  "line": 127,
+                                  "col": 21,
+                                  "value": {
+                                    "type": "number",
+                                    "line": 127,
+                                    "col": 21,
+                                    "value": 1
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "line": 129,
+                "col": 9,
+                "value": {
+                  "type": "identifier",
+                  "value": { "line": 129, "col": 9, "value": "int" }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": { "line": 136, "col": 5, "value": "i2a" },
+        "type": "method",
+        "parameters": [ { "line": 136, "col": 9, "value": "i" } ],
+        "body": {
+          "line": 136,
+          "col": 12,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 137,
+                "col": 9,
+                "value": {
+                  "type": "if",
+                  "guard": {
+                    "line": 137,
+                    "col": 13,
+                    "value": {
+                      "type": "equals",
+                      "lhs": {
+                        "line": 137,
+                        "col": 13,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 137, "col": 13, "value": "i" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 137,
+                        "col": 18,
+                        "value": {
+                          "type": "number",
+                          "line": 137,
+                          "col": 18,
+                          "value": 0
+                        }
+                      }
+                    }
+                  },
+                  "then": {
+                    "line": 137,
+                    "col": 21,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 137,
+                          "col": 24,
+                          "value": {
+                            "type": "string",
+                            "line": 137,
+                            "col": 24,
+                            "value": "0"
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "else": {
+                    "line": 138,
+                    "col": 14,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 139,
+                          "col": 13,
+                          "value": {
+                            "type": "if",
+                            "guard": {
+                              "line": 139,
+                              "col": 17,
+                              "value": {
+                                "type": "lt",
+                                "lhs": {
+                                  "line": 139,
+                                  "col": 17,
+                                  "value": {
+                                    "type": "number",
+                                    "line": 139,
+                                    "col": 17,
+                                    "value": 0
+                                  }
+                                },
+                                "rhs": {
+                                  "line": 139,
+                                  "col": 21,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 139,
+                                      "col": 21,
+                                      "value": "i"
+                                    }
+                                  }
+                                }
+                              }
+                            },
+                            "then": {
+                              "line": 139,
+                              "col": 24,
+                              "value": {
+                                "type": "block",
+                                "body": [
+                                  {
+                                    "line": 140,
+                                    "col": 17,
+                                    "value": {
+                                      "type": "self-dispatch",
+                                      "method": {
+                                        "line": 140,
+                                        "col": 17,
+                                        "value": "i2a_helper"
+                                      },
+                                      "args": [
+                                        {
+                                          "line": 140,
+                                          "col": 28,
+                                          "value": {
+                                            "type": "identifier",
+                                            "value": {
+                                              "line": 140,
+                                              "col": 28,
+                                              "value": "i"
+                                            }
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "else": {
+                              "line": 141,
+                              "col": 20,
+                              "value": {
+                                "type": "block",
+                                "body": [
+                                  {
+                                    "line": 142,
+                                    "col": 18,
+                                    "value": {
+                                      "type": "dynamic-dispatch",
+                                      "object": {
+                                        "line": 142,
+                                        "col": 18,
+                                        "value": {
+                                          "type": "string",
+                                          "line": 142,
+                                          "col": 18,
+                                          "value": "-"
+                                        }
+                                      },
+                                      "method": {
+                                        "line": 142,
+                                        "col": 21,
+                                        "value": "concat"
+                                      },
+                                      "args": [
+                                        {
+                                          "line": 142,
+                                          "col": 28,
+                                          "value": {
+                                            "type": "self-dispatch",
+                                            "method": {
+                                              "line": 142,
+                                              "col": 28,
+                                              "value": "i2a_helper"
+                                            },
+                                            "args": [
+                                              {
+                                                "line": 142,
+                                                "col": 39,
+                                                "value": {
+                                                  "type": "times",
+                                                  "lhs": {
+                                                    "line": 142,
+                                                    "col": 39,
+                                                    "value": {
+                                                      "type": "identifier",
+                                                      "value": {
+                                                        "line": 142,
+                                                        "col": 39,
+                                                        "value": "i"
+                                                      }
+                                                    }
+                                                  },
+                                                  "rhs": {
+                                                    "line": 142,
+                                                    "col": 43,
+                                                    "value": {
+                                                      "type": "negate",
+                                                      "body": {
+                                                        "line": 142,
+                                                        "col": 44,
+                                                        "value": {
+                                                          "type": "number",
+                                                          "line": 142,
+                                                          "col": 44,
+                                                          "value": 1
+                                                        }
+                                                      }
+                                                    }
+                                                  }
+                                                }
+                                              }
+                                            ]
+                                          }
+                                        }
+                                      ]
+                                    }
+                                  }
+                                ]
+                              }
+                            }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": { "line": 148, "col": 5, "value": "i2a_helper" },
+        "type": "method",
+        "parameters": [ { "line": 148, "col": 16, "value": "i" } ],
+        "body": {
+          "line": 148,
+          "col": 19,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 149,
+                "col": 9,
+                "value": {
+                  "type": "if",
+                  "guard": {
+                    "line": 149,
+                    "col": 13,
+                    "value": {
+                      "type": "equals",
+                      "lhs": {
+                        "line": 149,
+                        "col": 13,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 149, "col": 13, "value": "i" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 149,
+                        "col": 18,
+                        "value": {
+                          "type": "number",
+                          "line": 149,
+                          "col": 18,
+                          "value": 0
+                        }
+                      }
+                    }
+                  },
+                  "then": {
+                    "line": 149,
+                    "col": 21,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 149,
+                          "col": 24,
+                          "value": {
+                            "type": "string",
+                            "line": 149,
+                            "col": 24,
+                            "value": ""
+                          }
+                        }
+                      ]
+                    }
+                  },
+                  "else": {
+                    "line": 150,
+                    "col": 14,
+                    "value": {
+                      "type": "block",
+                      "body": [
+                        {
+                          "line": 151,
+                          "col": 13,
+                          "value": {
+                            "type": "let",
+                            "lhs": {
+                              "line": 151,
+                              "col": 17,
+                              "value": "next"
+                            },
+                            "rhs": {
+                              "line": 151,
+                              "col": 24,
+                              "value": {
+                                "type": "divide",
+                                "lhs": {
+                                  "line": 151,
+                                  "col": 24,
+                                  "value": {
+                                    "type": "identifier",
+                                    "value": {
+                                      "line": 151,
+                                      "col": 24,
+                                      "value": "i"
+                                    }
+                                  }
+                                },
+                                "rhs": {
+                                  "line": 151,
+                                  "col": 28,
+                                  "value": {
+                                    "type": "number",
+                                    "line": 151,
+                                    "col": 28,
+                                    "value": 10
+                                  }
+                                }
+                              }
+                            }
+                          }
+                        },
+                        {
+                          "line": 153,
+                          "col": 13,
+                          "value": {
+                            "type": "dynamic-dispatch",
+                            "object": {
+                              "line": 153,
+                              "col": 13,
+                              "value": {
+                                "type": "self-dispatch",
+                                "method": {
+                                  "line": 153,
+                                  "col": 13,
+                                  "value": "i2a_helper"
+                                },
+                                "args": [
+                                  {
+                                    "line": 153,
+                                    "col": 24,
+                                    "value": {
+                                      "type": "identifier",
+                                      "value": {
+                                        "line": 153,
+                                        "col": 24,
+                                        "value": "next"
+                                      }
+                                    }
+                                  }
+                                ]
+                              }
+                            },
+                            "method": {
+                              "line": 153,
+                              "col": 30,
+                              "value": "concat"
+                            },
+                            "args": [
+                              {
+                                "line": 153,
+                                "col": 37,
+                                "value": {
+                                  "type": "self-dispatch",
+                                  "method": {
+                                    "line": 153,
+                                    "col": 37,
+                                    "value": "i2c"
+                                  },
+                                  "args": [
+                                    {
+                                      "line": 153,
+                                      "col": 41,
+                                      "value": {
+                                        "type": "minus",
+                                        "lhs": {
+                                          "line": 153,
+                                          "col": 41,
+                                          "value": {
+                                            "type": "identifier",
+                                            "value": {
+                                              "line": 153,
+                                              "col": 41,
+                                              "value": "i"
+                                            }
+                                          }
+                                        },
+                                        "rhs": {
+                                          "line": 153,
+                                          "col": 45,
+                                          "value": {
+                                            "type": "times",
+                                            "lhs": {
+                                              "line": 153,
+                                              "col": 45,
+                                              "value": {
+                                                "type": "identifier",
+                                                "value": {
+                                                  "line": 153,
+                                                  "col": 45,
+                                                  "value": "next"
+                                                }
+                                              }
+                                            },
+                                            "rhs": {
+                                              "line": 153,
+                                              "col": 52,
+                                              "value": {
+                                                "type": "number",
+                                                "line": 153,
+                                                "col": 52,
+                                                "value": 10
+                                              }
+                                            }
+                                          }
+                                        }
+                                      }
+                                    }
+                                  ]
+                                }
+                              }
+                            ]
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [],
+    "methods": [
+      {
+        "name": { "line": 161, "col": 5, "value": "test_pair" },
+        "type": "method",
+        "parameters": [
+          { "line": 161, "col": 15, "value": "a" },
+          { "line": 161, "col": 18, "value": "b" }
+        ],
+        "body": {
+          "line": 161,
+          "col": 21,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 162,
+                "col": 9,
+                "value": {
+                  "type": "assign",
+                  "lhs": { "line": 162, "col": 9, "value": "a" },
+                  "rhs": {
+                    "line": 162,
+                    "col": 13,
+                    "value": {
+                      "type": "dynamic-dispatch",
+                      "object": {
+                        "line": 162,
+                        "col": 14,
+                        "value": {
+                          "type": "new",
+                          "class": { "line": 162, "col": 18, "value": "A2I" }
+                        }
+                      },
+                      "method": { "line": 162, "col": 23, "value": "a2i" },
+                      "args": [
+                        {
+                          "line": 162,
+                          "col": 27,
+                          "value": {
+                            "type": "identifier",
+                            "value": { "line": 162, "col": 27, "value": "a" }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "line": 163,
+                "col": 9,
+                "value": {
+                  "type": "assign",
+                  "lhs": { "line": 163, "col": 9, "value": "b" },
+                  "rhs": {
+                    "line": 163,
+                    "col": 13,
+                    "value": {
+                      "type": "dynamic-dispatch",
+                      "object": {
+                        "line": 163,
+                        "col": 14,
+                        "value": {
+                          "type": "new",
+                          "class": { "line": 163, "col": 18, "value": "A2I" }
+                        }
+                      },
+                      "method": { "line": 163, "col": 23, "value": "i2a" },
+                      "args": [
+                        {
+                          "line": 163,
+                          "col": 27,
+                          "value": {
+                            "type": "identifier",
+                            "value": { "line": 163, "col": 27, "value": "b" }
+                          }
+                        }
+                      ]
+                    }
+                  }
+                }
+              },
+              {
+                "line": 164,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 164, "col": 9, "value": "print_int" },
+                  "args": [
+                    {
+                      "line": 164,
+                      "col": 19,
+                      "value": {
+                        "type": "identifier",
+                        "value": { "line": 164, "col": 19, "value": "a" }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 165,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": {
+                    "line": 165,
+                    "col": 9,
+                    "value": "print_string"
+                  },
+                  "args": [
+                    {
+                      "line": 165,
+                      "col": 23,
+                      "value": {
+                        "type": "string",
+                        "line": 165,
+                        "col": 23,
+                        "value": " == "
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 166,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": {
+                    "line": 166,
+                    "col": 9,
+                    "value": "print_string"
+                  },
+                  "args": [
+                    {
+                      "line": 166,
+                      "col": 22,
+                      "value": {
+                        "type": "identifier",
+                        "value": { "line": 166, "col": 22, "value": "b" }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 167,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": {
+                    "line": 167,
+                    "col": 9,
+                    "value": "print_string"
+                  },
+                  "args": [
+                    {
+                      "line": 167,
+                      "col": 23,
+                      "value": {
+                        "type": "string",
+                        "line": 167,
+                        "col": 23,
+                        "value": "\\n"
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": { "line": 170, "col": 5, "value": "main" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 170,
+          "col": 12,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 171,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 171, "col": 9, "value": "test_pair" },
+                  "args": [
+                    {
+                      "line": 171,
+                      "col": 20,
+                      "value": {
+                        "type": "string",
+                        "line": 171,
+                        "col": 20,
+                        "value": "123456790"
+                      }
+                    },
+                    {
+                      "line": 171,
+                      "col": 32,
+                      "value": {
+                        "type": "number",
+                        "line": 171,
+                        "col": 32,
+                        "value": 1234567890
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 172,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 172, "col": 9, "value": "test_pair" },
+                  "args": [
+                    {
+                      "line": 172,
+                      "col": 20,
+                      "value": {
+                        "type": "string",
+                        "line": 172,
+                        "col": 20,
+                        "value": "+123456790"
+                      }
+                    },
+                    {
+                      "line": 172,
+                      "col": 33,
+                      "value": {
+                        "type": "number",
+                        "line": 172,
+                        "col": 33,
+                        "value": 1234567890
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 173,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 173, "col": 9, "value": "test_pair" },
+                  "args": [
+                    {
+                      "line": 173,
+                      "col": 20,
+                      "value": {
+                        "type": "string",
+                        "line": 173,
+                        "col": 20,
+                        "value": "-123456790"
+                      }
+                    },
+                    {
+                      "line": 173,
+                      "col": 33,
+                      "value": {
+                        "type": "negate",
+                        "body": {
+                          "line": 173,
+                          "col": 34,
+                          "value": {
+                            "type": "number",
+                            "line": 173,
+                            "col": 34,
+                            "value": 1234567890
+                          }
+                        }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 174,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 174, "col": 9, "value": "test_pair" },
+                  "args": [
+                    {
+                      "line": 174,
+                      "col": 20,
+                      "value": {
+                        "type": "string",
+                        "line": 174,
+                        "col": 20,
+                        "value": "0"
+                      }
+                    },
+                    {
+                      "line": 174,
+                      "col": 24,
+                      "value": {
+                        "type": "number",
+                        "line": 174,
+                        "col": 24,
+                        "value": 0
+                      }
+                    }
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

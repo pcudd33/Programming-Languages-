@@ -1,0 +1,76 @@
+[
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [
+      {
+        "name": { "line": 2, "col": 9, "value": "thisIsBad" },
+        "type": "member",
+        "init": {
+          "line": 2,
+          "col": 21,
+          "value": {
+            "type": "new-array",
+            "size": {
+              "line": 2,
+              "col": 25,
+              "value": {
+                "type": "number",
+                "line": 2,
+                "col": 25,
+                "value": 24
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": { "line": 3, "col": 9, "value": "runAway" },
+        "type": "member",
+        "init": {
+          "line": 3,
+          "col": 20,
+          "value": {
+            "type": "times",
+            "lhs": {
+              "line": 3,
+              "col": 20,
+              "value": {
+                "type": "divide",
+                "lhs": {
+                  "line": 3,
+                  "col": 20,
+                  "value": {
+                    "type": "string",
+                    "line": 3,
+                    "col": 20,
+                    "value": "welcome to chilis"
+                  }
+                },
+                "rhs": {
+                  "line": 3,
+                  "col": 41,
+                  "value": {
+                    "type": "number",
+                    "line": 3,
+                    "col": 41,
+                    "value": 25
+                  }
+                }
+              }
+            },
+            "rhs": {
+              "line": 3,
+              "col": 46,
+              "value": {
+                "type": "identifier",
+                "value": { "line": 3, "col": 46, "value": "thisIsBad" }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "methods": []
+  }
+]

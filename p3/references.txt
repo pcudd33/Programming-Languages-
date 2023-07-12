@@ -1,0 +1,18 @@
+1) https://docs.oracle.com/en/java/javase/16/docs/api/java.base/java/util/regex/Pattern.html 
+
+I used this source to determine what regular expression is to use for our Identifiers due to them needing to be 
+able to handle all the specialty characters and special variations of characters. The XID_Start allows for all 
+lower case and uppercase characters to be accepted as the first character. The XID_Continue allows for all special 
+characters and special variations of characters along with all normal characters to be anywhere else within the rest 
+of the Identifiers name.
+
+2) https://snail-language.github.io/docs/specification
+
+I used this source to allow myself to create all the proper syntactical structures to allow our 
+lexer to include comments, all our operators, macros/constants, Whitespace, Identifiers, Integer Literals, and 
+String Literals.
+
+3) https://jflex.de/manual.html
+
+I used this source for looking at how to set up my Lexer.flex class and how to implement specific aspects of the 
+lexer itself. 

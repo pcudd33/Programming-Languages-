@@ -1,0 +1,4 @@
+https://en.wikipedia.org/wiki/Topological_sorting
+We used this website mostly for looking at psudo code for the recursive implementation of DFS through the use
+of lists and ArrayLists with several recursive calls. This source also allowed us to implementation of the Visit funciton in a recursive manner 
+and also allowed us to implement the temporary mark in order for checking for cycles. 

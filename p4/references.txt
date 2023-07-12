@@ -1,0 +1,15 @@
+1) snail documentation & specification: https://snail-language.github.io/docs/specification#expression-values
+  We used this reference to create all of the rules from the snail syntax into the correct SL-AST output format. 
+  We took each informal spec from reference and used that to create the paser grammar rules which allowed us to acheice
+  the proper SL-AST snail output. 
+
+
+2) PLY: http://www.dabeaz.com/ply/ply.html
+We used this reference to create the grammars from which we specified the format of each parser object within the snail syntax.
+While comparing this source to the informal specification from the snail SL-AST we were able to create the grammar / evaluation rules 
+for each accatable syntax pattern.
+
+
+3) https://www.delftstack.com/howto/python/python-remove-newline-from-string/
+we used the reference in order to change the output that was created by the .strip() function to match the spec which used the .replace("\n", "") 
+in order to make this correct with actual snail output.

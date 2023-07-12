@@ -1,0 +1,54 @@
+[
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [
+      {
+        "name": { "line": 3, "col": 9, "value": "x" },
+        "type": "member",
+        "init": {
+          "line": 3,
+          "col": 13,
+          "value": { "type": "number", "line": 3, "col": 13, "value": 23 }
+        }
+      },
+      {
+        "name": { "line": 4, "col": 9, "value": "tehe" },
+        "type": "member",
+        "init": {
+          "line": 4,
+          "col": 16,
+          "value": { "type": "number", "line": 4, "col": 16, "value": 0 }
+        }
+      },
+      {
+        "name": { "line": 5, "col": 9, "value": "ohno" },
+        "type": "member",
+        "init": {
+          "line": 5,
+          "col": 16,
+          "value": {
+            "type": "divide",
+            "lhs": {
+              "line": 5,
+              "col": 16,
+              "value": {
+                "type": "identifier",
+                "value": { "line": 5, "col": 16, "value": "x" }
+              }
+            },
+            "rhs": {
+              "line": 5,
+              "col": 18,
+              "value": {
+                "type": "identifier",
+                "value": { "line": 5, "col": 18, "value": "tehe" }
+              }
+            }
+          }
+        }
+      }
+    ],
+    "methods": []
+  }
+]

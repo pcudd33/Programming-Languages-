@@ -1,0 +1,150 @@
+[
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [],
+    "methods": [
+      {
+        "name": { "line": 3, "col": 5, "value": "main" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 3,
+          "col": 11,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 4,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 4, "col": 13, "value": "ohMyGosh" },
+                  "rhs": {
+                    "line": 4,
+                    "col": 24,
+                    "value": {
+                      "type": "number",
+                      "line": 4,
+                      "col": 24,
+                      "value": 24
+                    }
+                  }
+                }
+              },
+              {
+                "line": 5,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": {
+                    "line": 5,
+                    "col": 13,
+                    "value": "thisIsTakingForever"
+                  },
+                  "rhs": {
+                    "line": 5,
+                    "col": 35,
+                    "value": {
+                      "type": "new-array",
+                      "size": {
+                        "line": 5,
+                        "col": 39,
+                        "value": {
+                          "type": "number",
+                          "line": 5,
+                          "col": 39,
+                          "value": 323
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "line": 6,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": {
+                    "line": 6,
+                    "col": 13,
+                    "value": "IDontWantToMakeTestFiles"
+                  },
+                  "rhs": {
+                    "line": 6,
+                    "col": 41,
+                    "value": {
+                      "type": "string",
+                      "line": 6,
+                      "col": 41,
+                      "value": "I hope this works"
+                    }
+                  }
+                }
+              },
+              {
+                "line": 7,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 7, "col": 13, "value": "results" },
+                  "rhs": {
+                    "line": 7,
+                    "col": 23,
+                    "value": {
+                      "type": "plus",
+                      "lhs": {
+                        "line": 7,
+                        "col": 23,
+                        "value": {
+                          "type": "identifier",
+                          "value": {
+                            "line": 7,
+                            "col": 23,
+                            "value": "ohMyGosh"
+                          }
+                        }
+                      },
+                      "rhs": {
+                        "line": 7,
+                        "col": 34,
+                        "value": {
+                          "type": "divide",
+                          "lhs": {
+                            "line": 7,
+                            "col": 34,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 7,
+                                "col": 34,
+                                "value": "thisIsTakingForever"
+                              }
+                            }
+                          },
+                          "rhs": {
+                            "line": 7,
+                            "col": 56,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 7,
+                                "col": 56,
+                                "value": "IDontWantToMakeTestFiles"
+                              }
+                            }
+                          }
+                        }
+                      }
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]

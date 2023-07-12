@@ -1,0 +1,104 @@
+<project name="CS364AntFile" default="dist" basedir=".">
+  <description>
+    Build file for CS 364 S22 P3
+  </description>
+
+  <!-- TODO update these values as needed -->
+  <property name="project-name" value="lexer"/>
+  <property name="main-class" value="Main"/>
+  <property name="flex-file" value="Lexer.flex"/>
+  <!-- END TODO -->
+
+  <!-- set global properties for this build -->
+  <property name="src" location="src"/>
+  <property name="build" location="build"/>
+  
+  <!-- add local and global classpath -->
+  <path id="classpath">
+    <fileset dir="lib" erroronmissingdir="false">
+      <include name="**/*.jar" />
+    </fileset>
+    <fileset dir="/java-libs" erroronmissingdir="false">
+      <include name="**/*.jar" />
+    </fileset>
+  </path>
+
+  <!-- create a JFlex task -->
+  <taskdef classname="jflex.anttask.JFlexTask" name="jflex">
+    <classpath>
+      <path refid="classpath"/>
+    </classpath>
+  </taskdef>
+
+  <target name="init">
+    <!-- Create the time stamp -->
+    <tstamp/>
+    <!-- Create the build directory structure used by compile -->
+    <mkdir dir="${build}/classes"/>
+  </target>
+
+  <target name="compile" depends="init"
+          description="compile the source">
+    <!-- Create JFlex class -->
+    <jflex
+      file="${src}/${flex-file}"
+      destdir="${build}/generated/" />
+    <!-- Compile the Java code from ${src} into ${build} -->
+    <javac destdir="${build}/classes">
+      <src path="${build}/generated" />
+      <src path="${src}" />
+      <src path="." />
+      <classpath>
+        <path refid="classpath"/>
+      </classpath>
+    </javac>
+  </target>
+
+  <target name="dist" depends="compile"
+          description="generate the distribution">
+
+    <!-- Put everything in ${build} into the ${ant.project.name}.jar file -->
+    <jar jarfile="${project-name}.jar" basedir="${build}/classes" >
+      <manifest>
+        <attribute name="Main-Class" value="${main-class}"/>
+      </manifest>
+    </jar>
+  </target>
+
+  <target name="clean"
+          description="clean up">
+    <!-- Delete the ${build} and ${dist} directory trees -->
+    <delete dir="${build}"/>
+    <delete file="${project-name}.jar"/>
+    <delete file="fullsubmit.tar.gz"/>
+  </target>
+
+  <target name="fullsubmit" depends="clean"
+          description="Create a tar.gz file to upload to the autograder">
+    <tar destfile="fullsubmit.tar.gz"  compression="gzip">
+      <tarfileset dir="${src}" prefix="src/">
+        <include name="*.java" />
+        <include name="*.flex" />
+      </tarfileset>
+      <tarfileset dir="${src}">
+        <include name="test*.txt"/>
+        <include name="test*.sl"/>
+      </tarfileset>
+      <tarfileset dir=".">
+        <include name="*.java" />
+        <include name="*.flex" />
+        <include name="test*.txt"/>
+        <include name="build.xml"/>
+        <include name="test*.sl"/>
+        <include name="references.txt"/>
+        <include name="readme.txt"/>
+        <include name="team.txt"/>
+      </tarfileset>
+    </tar>
+    <echo message="Contents of fullsubmit.tar.gz:" />
+    <exec executable="tar">
+      <arg value="tzf" />
+      <arg file="fullsubmit.tar.gz" />
+    </exec>
+  </target>
+</project>

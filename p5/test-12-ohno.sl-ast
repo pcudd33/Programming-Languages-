@@ -1,0 +1,1231 @@
+[
+  {
+    "inherits": "Bazz",
+    "class_name": "Foo",
+    "members": [
+      {
+        "name": { "line": 7, "col": 9, "value": "a" },
+        "type": "member",
+        "init": {
+          "line": 7,
+          "col": 13,
+          "value": {
+            "type": "if",
+            "guard": {
+              "line": 7,
+              "col": 17,
+              "value": {
+                "type": "dynamic-dispatch",
+                "object": {
+                  "line": 7,
+                  "col": 17,
+                  "value": {
+                    "type": "identifier",
+                    "value": { "line": 7, "col": 17, "value": "self" }
+                  }
+                },
+                "method": { "line": 7, "col": 22, "value": "is_a" },
+                "args": [
+                  {
+                    "line": 7,
+                    "col": 28,
+                    "value": {
+                      "type": "string",
+                      "line": 7,
+                      "col": 28,
+                      "value": "Bar"
+                    }
+                  }
+                ]
+              }
+            },
+            "then": {
+              "line": 7,
+              "col": 35,
+              "value": {
+                "type": "block",
+                "body": [
+                  {
+                    "line": 7,
+                    "col": 37,
+                    "value": {
+                      "type": "identifier",
+                      "value": { "line": 7, "col": 37, "value": "self" }
+                    }
+                  }
+                ]
+              }
+            },
+            "else": {
+              "line": 7,
+              "col": 50,
+              "value": {
+                "type": "block",
+                "body": [
+                  {
+                    "line": 8,
+                    "col": 9,
+                    "value": {
+                      "type": "if",
+                      "guard": {
+                        "line": 8,
+                        "col": 13,
+                        "value": {
+                          "type": "dynamic-dispatch",
+                          "object": {
+                            "line": 8,
+                            "col": 13,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 8,
+                                "col": 13,
+                                "value": "self"
+                              }
+                            }
+                          },
+                          "method": { "line": 8, "col": 18, "value": "is_a" },
+                          "args": [
+                            {
+                              "line": 8,
+                              "col": 24,
+                              "value": {
+                                "type": "string",
+                                "line": 8,
+                                "col": 24,
+                                "value": "Razz"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "then": {
+                        "line": 8,
+                        "col": 32,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 8,
+                              "col": 34,
+                              "value": {
+                                "type": "new",
+                                "class": {
+                                  "line": 8,
+                                  "col": 38,
+                                  "value": "Bar"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "else": {
+                        "line": 8,
+                        "col": 50,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 9,
+                              "col": 13,
+                              "value": {
+                                "type": "if",
+                                "guard": {
+                                  "line": 9,
+                                  "col": 17,
+                                  "value": {
+                                    "type": "dynamic-dispatch",
+                                    "object": {
+                                      "line": 9,
+                                      "col": 17,
+                                      "value": {
+                                        "type": "identifier",
+                                        "value": {
+                                          "line": 9,
+                                          "col": 17,
+                                          "value": "self"
+                                        }
+                                      }
+                                    },
+                                    "method": {
+                                      "line": 9,
+                                      "col": 22,
+                                      "value": "is_a"
+                                    },
+                                    "args": [
+                                      {
+                                        "line": 9,
+                                        "col": 28,
+                                        "value": {
+                                          "type": "string",
+                                          "line": 9,
+                                          "col": 28,
+                                          "value": "Foo"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                "then": {
+                                  "line": 9,
+                                  "col": 35,
+                                  "value": {
+                                    "type": "block",
+                                    "body": [
+                                      {
+                                        "line": 9,
+                                        "col": 37,
+                                        "value": {
+                                          "type": "new",
+                                          "class": {
+                                            "line": 9,
+                                            "col": 41,
+                                            "value": "Razz"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                "else": {
+                                  "line": 9,
+                                  "col": 54,
+                                  "value": {
+                                    "type": "block",
+                                    "body": [
+                                      {
+                                        "line": 10,
+                                        "col": 17,
+                                        "value": {
+                                          "type": "self-dispatch",
+                                          "method": {
+                                            "line": 10,
+                                            "col": 17,
+                                            "value": "abort"
+                                          },
+                                          "args": []
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": { "line": 15, "col": 9, "value": "b" },
+        "type": "member",
+        "init": {
+          "line": 15,
+          "col": 13,
+          "value": {
+            "type": "plus",
+            "lhs": {
+              "line": 15,
+              "col": 13,
+              "value": {
+                "type": "plus",
+                "lhs": {
+                  "line": 15,
+                  "col": 13,
+                  "value": {
+                    "type": "plus",
+                    "lhs": {
+                      "line": 15,
+                      "col": 13,
+                      "value": {
+                        "type": "dynamic-dispatch",
+                        "object": {
+                          "line": 15,
+                          "col": 13,
+                          "value": {
+                            "type": "identifier",
+                            "value": { "line": 15, "col": 13, "value": "a" }
+                          }
+                        },
+                        "method": { "line": 15, "col": 15, "value": "doh" },
+                        "args": []
+                      }
+                    },
+                    "rhs": {
+                      "line": 15,
+                      "col": 23,
+                      "value": {
+                        "type": "dynamic-dispatch",
+                        "object": {
+                          "line": 15,
+                          "col": 23,
+                          "value": {
+                            "type": "identifier",
+                            "value": { "line": 15, "col": 23, "value": "g" }
+                          }
+                        },
+                        "method": { "line": 15, "col": 25, "value": "doh" },
+                        "args": []
+                      }
+                    }
+                  }
+                },
+                "rhs": {
+                  "line": 15,
+                  "col": 33,
+                  "value": {
+                    "type": "self-dispatch",
+                    "method": { "line": 15, "col": 33, "value": "doh" },
+                    "args": []
+                  }
+                }
+              }
+            },
+            "rhs": {
+              "line": 15,
+              "col": 41,
+              "value": {
+                "type": "self-dispatch",
+                "method": { "line": 15, "col": 41, "value": "printh" },
+                "args": []
+              }
+            }
+          }
+        }
+      }
+    ],
+    "methods": [
+      {
+        "name": { "line": 17, "col": 5, "value": "doh" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 17,
+          "col": 11,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 18,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 18, "col": 13, "value": "i" },
+                  "rhs": {
+                    "line": 18,
+                    "col": 17,
+                    "value": {
+                      "type": "identifier",
+                      "value": { "line": 18, "col": 17, "value": "h" }
+                    }
+                  }
+                }
+              },
+              {
+                "line": 19,
+                "col": 9,
+                "value": {
+                  "type": "assign",
+                  "lhs": { "line": 19, "col": 9, "value": "h" },
+                  "rhs": {
+                    "line": 19,
+                    "col": 13,
+                    "value": {
+                      "type": "plus",
+                      "lhs": {
+                        "line": 19,
+                        "col": 13,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 19, "col": 13, "value": "h" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 19,
+                        "col": 17,
+                        "value": {
+                          "type": "number",
+                          "line": 19,
+                          "col": 17,
+                          "value": 2
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "line": 20,
+                "col": 9,
+                "value": {
+                  "type": "identifier",
+                  "value": { "line": 20, "col": 9, "value": "i" }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "inherits": "Razz",
+    "class_name": "Bar",
+    "members": [
+      {
+        "name": { "line": 25, "col": 9, "value": "c" },
+        "type": "member",
+        "init": {
+          "line": 25,
+          "col": 13,
+          "value": {
+            "type": "self-dispatch",
+            "method": { "line": 25, "col": 13, "value": "doh" },
+            "args": []
+          }
+        }
+      },
+      {
+        "name": { "line": 26, "col": 9, "value": "d" },
+        "type": "member",
+        "init": {
+          "line": 26,
+          "col": 13,
+          "value": {
+            "type": "self-dispatch",
+            "method": { "line": 26, "col": 13, "value": "printh" },
+            "args": []
+          }
+        }
+      }
+    ],
+    "methods": []
+  },
+  {
+    "inherits": "Foo",
+    "class_name": "Razz",
+    "members": [
+      {
+        "name": { "line": 30, "col": 9, "value": "e" },
+        "type": "member",
+        "init": {
+          "line": 30,
+          "col": 13,
+          "value": {
+            "type": "if",
+            "guard": {
+              "line": 30,
+              "col": 18,
+              "value": {
+                "type": "dynamic-dispatch",
+                "object": {
+                  "line": 30,
+                  "col": 18,
+                  "value": {
+                    "type": "identifier",
+                    "value": { "line": 30, "col": 18, "value": "self" }
+                  }
+                },
+                "method": { "line": 30, "col": 23, "value": "is_a" },
+                "args": [
+                  {
+                    "line": 30,
+                    "col": 29,
+                    "value": {
+                      "type": "string",
+                      "line": 30,
+                      "col": 29,
+                      "value": "Bar"
+                    }
+                  }
+                ]
+              }
+            },
+            "then": {
+              "line": 30,
+              "col": 36,
+              "value": {
+                "type": "block",
+                "body": [
+                  {
+                    "line": 30,
+                    "col": 38,
+                    "value": {
+                      "type": "identifier",
+                      "value": { "line": 30, "col": 38, "value": "self" }
+                    }
+                  }
+                ]
+              }
+            },
+            "else": {
+              "line": 30,
+              "col": 51,
+              "value": {
+                "type": "block",
+                "body": [
+                  {
+                    "line": 31,
+                    "col": 9,
+                    "value": {
+                      "type": "if",
+                      "guard": {
+                        "line": 31,
+                        "col": 13,
+                        "value": {
+                          "type": "dynamic-dispatch",
+                          "object": {
+                            "line": 31,
+                            "col": 13,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 31,
+                                "col": 13,
+                                "value": "self"
+                              }
+                            }
+                          },
+                          "method": {
+                            "line": 31,
+                            "col": 18,
+                            "value": "is_a"
+                          },
+                          "args": [
+                            {
+                              "line": 31,
+                              "col": 24,
+                              "value": {
+                                "type": "string",
+                                "line": 31,
+                                "col": 24,
+                                "value": "Razz"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "then": {
+                        "line": 31,
+                        "col": 32,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 32,
+                              "col": 13,
+                              "value": {
+                                "type": "new",
+                                "class": {
+                                  "line": 32,
+                                  "col": 17,
+                                  "value": "Bar"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "else": {
+                        "line": 33,
+                        "col": 16,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 34,
+                              "col": 13,
+                              "value": {
+                                "type": "self-dispatch",
+                                "method": {
+                                  "line": 34,
+                                  "col": 13,
+                                  "value": "abort"
+                                },
+                                "args": []
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": { "line": 38, "col": 9, "value": "f" },
+        "type": "member",
+        "init": {
+          "line": 38,
+          "col": 13,
+          "value": {
+            "type": "plus",
+            "lhs": {
+              "line": 38,
+              "col": 13,
+              "value": {
+                "type": "plus",
+                "lhs": {
+                  "line": 38,
+                  "col": 13,
+                  "value": {
+                    "type": "plus",
+                    "lhs": {
+                      "line": 38,
+                      "col": 13,
+                      "value": {
+                        "type": "plus",
+                        "lhs": {
+                          "line": 38,
+                          "col": 13,
+                          "value": {
+                            "type": "static-dispatch",
+                            "object": {
+                              "line": 38,
+                              "col": 13,
+                              "value": {
+                                "type": "identifier",
+                                "value": {
+                                  "line": 38,
+                                  "col": 13,
+                                  "value": "a"
+                                }
+                              }
+                            },
+                            "class": {
+                              "line": 38,
+                              "col": 15,
+                              "value": "Bazz"
+                            },
+                            "method": {
+                              "line": 38,
+                              "col": 20,
+                              "value": "doh"
+                            },
+                            "args": []
+                          }
+                        },
+                        "rhs": {
+                          "line": 38,
+                          "col": 28,
+                          "value": {
+                            "type": "dynamic-dispatch",
+                            "object": {
+                              "line": 38,
+                              "col": 28,
+                              "value": {
+                                "type": "identifier",
+                                "value": {
+                                  "line": 38,
+                                  "col": 28,
+                                  "value": "g"
+                                }
+                              }
+                            },
+                            "method": {
+                              "line": 38,
+                              "col": 30,
+                              "value": "doh"
+                            },
+                            "args": []
+                          }
+                        }
+                      }
+                    },
+                    "rhs": {
+                      "line": 38,
+                      "col": 38,
+                      "value": {
+                        "type": "dynamic-dispatch",
+                        "object": {
+                          "line": 38,
+                          "col": 38,
+                          "value": {
+                            "type": "identifier",
+                            "value": { "line": 38, "col": 38, "value": "e" }
+                          }
+                        },
+                        "method": { "line": 38, "col": 40, "value": "doh" },
+                        "args": []
+                      }
+                    }
+                  }
+                },
+                "rhs": {
+                  "line": 38,
+                  "col": 48,
+                  "value": {
+                    "type": "self-dispatch",
+                    "method": { "line": 38, "col": 48, "value": "doh" },
+                    "args": []
+                  }
+                }
+              }
+            },
+            "rhs": {
+              "line": 38,
+              "col": 56,
+              "value": {
+                "type": "self-dispatch",
+                "method": { "line": 38, "col": 56, "value": "printh" },
+                "args": []
+              }
+            }
+          }
+        }
+      }
+    ],
+    "methods": []
+  },
+  {
+    "inherits": "IO",
+    "class_name": "Bazz",
+    "members": [
+      {
+        "name": { "line": 42, "col": 9, "value": "h" },
+        "type": "member",
+        "init": {
+          "line": 42,
+          "col": 13,
+          "value": { "type": "number", "line": 42, "col": 13, "value": 1 }
+        }
+      },
+      {
+        "name": { "line": 43, "col": 9, "value": "g" },
+        "type": "member",
+        "init": {
+          "line": 43,
+          "col": 13,
+          "value": {
+            "type": "if",
+            "guard": {
+              "line": 43,
+              "col": 17,
+              "value": {
+                "type": "dynamic-dispatch",
+                "object": {
+                  "line": 43,
+                  "col": 17,
+                  "value": {
+                    "type": "identifier",
+                    "value": { "line": 43, "col": 17, "value": "self" }
+                  }
+                },
+                "method": { "line": 43, "col": 22, "value": "is_a" },
+                "args": [
+                  {
+                    "line": 43,
+                    "col": 28,
+                    "value": {
+                      "type": "string",
+                      "line": 43,
+                      "col": 28,
+                      "value": "Bar"
+                    }
+                  }
+                ]
+              }
+            },
+            "then": {
+              "line": 43,
+              "col": 35,
+              "value": {
+                "type": "block",
+                "body": [
+                  {
+                    "line": 43,
+                    "col": 37,
+                    "value": {
+                      "type": "identifier",
+                      "value": { "line": 43, "col": 37, "value": "self" }
+                    }
+                  }
+                ]
+              }
+            },
+            "else": {
+              "line": 43,
+              "col": 50,
+              "value": {
+                "type": "block",
+                "body": [
+                  {
+                    "line": 44,
+                    "col": 9,
+                    "value": {
+                      "type": "if",
+                      "guard": {
+                        "line": 44,
+                        "col": 13,
+                        "value": {
+                          "type": "dynamic-dispatch",
+                          "object": {
+                            "line": 44,
+                            "col": 13,
+                            "value": {
+                              "type": "identifier",
+                              "value": {
+                                "line": 44,
+                                "col": 13,
+                                "value": "self"
+                              }
+                            }
+                          },
+                          "method": {
+                            "line": 44,
+                            "col": 18,
+                            "value": "is_a"
+                          },
+                          "args": [
+                            {
+                              "line": 44,
+                              "col": 24,
+                              "value": {
+                                "type": "string",
+                                "line": 44,
+                                "col": 24,
+                                "value": "Razz"
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "then": {
+                        "line": 44,
+                        "col": 32,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 44,
+                              "col": 34,
+                              "value": {
+                                "type": "new",
+                                "class": {
+                                  "line": 44,
+                                  "col": 38,
+                                  "value": "Bar"
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      },
+                      "else": {
+                        "line": 44,
+                        "col": 50,
+                        "value": {
+                          "type": "block",
+                          "body": [
+                            {
+                              "line": 45,
+                              "col": 13,
+                              "value": {
+                                "type": "if",
+                                "guard": {
+                                  "line": 45,
+                                  "col": 17,
+                                  "value": {
+                                    "type": "dynamic-dispatch",
+                                    "object": {
+                                      "line": 45,
+                                      "col": 17,
+                                      "value": {
+                                        "type": "identifier",
+                                        "value": {
+                                          "line": 45,
+                                          "col": 17,
+                                          "value": "self"
+                                        }
+                                      }
+                                    },
+                                    "method": {
+                                      "line": 45,
+                                      "col": 22,
+                                      "value": "is_a"
+                                    },
+                                    "args": [
+                                      {
+                                        "line": 45,
+                                        "col": 28,
+                                        "value": {
+                                          "type": "string",
+                                          "line": 45,
+                                          "col": 28,
+                                          "value": "Foo"
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                "then": {
+                                  "line": 45,
+                                  "col": 35,
+                                  "value": {
+                                    "type": "block",
+                                    "body": [
+                                      {
+                                        "line": 45,
+                                        "col": 37,
+                                        "value": {
+                                          "type": "new",
+                                          "class": {
+                                            "line": 45,
+                                            "col": 41,
+                                            "value": "Razz"
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                },
+                                "else": {
+                                  "line": 45,
+                                  "col": 54,
+                                  "value": {
+                                    "type": "block",
+                                    "body": [
+                                      {
+                                        "line": 46,
+                                        "col": 17,
+                                        "value": {
+                                          "type": "if",
+                                          "guard": {
+                                            "line": 46,
+                                            "col": 21,
+                                            "value": {
+                                              "type": "dynamic-dispatch",
+                                              "object": {
+                                                "line": 46,
+                                                "col": 21,
+                                                "value": {
+                                                  "type": "identifier",
+                                                  "value": {
+                                                    "line": 46,
+                                                    "col": 21,
+                                                    "value": "self"
+                                                  }
+                                                }
+                                              },
+                                              "method": {
+                                                "line": 46,
+                                                "col": 26,
+                                                "value": "is_a"
+                                              },
+                                              "args": [
+                                                {
+                                                  "line": 46,
+                                                  "col": 32,
+                                                  "value": {
+                                                    "type": "string",
+                                                    "line": 46,
+                                                    "col": 32,
+                                                    "value": "Bazz"
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          },
+                                          "then": {
+                                            "line": 46,
+                                            "col": 40,
+                                            "value": {
+                                              "type": "block",
+                                              "body": [
+                                                {
+                                                  "line": 46,
+                                                  "col": 42,
+                                                  "value": {
+                                                    "type": "new",
+                                                    "class": {
+                                                      "line": 46,
+                                                      "col": 46,
+                                                      "value": "Foo"
+                                                    }
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          },
+                                          "else": {
+                                            "line": 46,
+                                            "col": 58,
+                                            "value": {
+                                              "type": "block",
+                                              "body": [
+                                                {
+                                                  "line": 47,
+                                                  "col": 21,
+                                                  "value": {
+                                                    "type": "self-dispatch",
+                                                    "method": {
+                                                      "line": 47,
+                                                      "col": 21,
+                                                      "value": "abort"
+                                                    },
+                                                    "args": []
+                                                  }
+                                                }
+                                              ]
+                                            }
+                                          }
+                                        }
+                                      }
+                                    ]
+                                  }
+                                }
+                              }
+                            }
+                          ]
+                        }
+                      }
+                    }
+                  }
+                ]
+              }
+            }
+          }
+        }
+      },
+      {
+        "name": { "line": 53, "col": 9, "value": "i" },
+        "type": "member",
+        "init": {
+          "line": 53,
+          "col": 13,
+          "value": {
+            "type": "self-dispatch",
+            "method": { "line": 53, "col": 13, "value": "printh" },
+            "args": []
+          }
+        }
+      }
+    ],
+    "methods": [
+      {
+        "name": { "line": 55, "col": 5, "value": "printh" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 55,
+          "col": 14,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 56,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 56, "col": 9, "value": "print_int" },
+                  "args": [
+                    {
+                      "line": 56,
+                      "col": 19,
+                      "value": {
+                        "type": "identifier",
+                        "value": { "line": 56, "col": 19, "value": "h" }
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 57,
+                "col": 9,
+                "value": {
+                  "type": "number",
+                  "line": 57,
+                  "col": 9,
+                  "value": 0
+                }
+              }
+            ]
+          }
+        }
+      },
+      {
+        "name": { "line": 60, "col": 5, "value": "doh" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 60,
+          "col": 11,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 61,
+                "col": 9,
+                "value": {
+                  "type": "let",
+                  "lhs": { "line": 61, "col": 13, "value": "i" },
+                  "rhs": {
+                    "line": 61,
+                    "col": 17,
+                    "value": {
+                      "type": "identifier",
+                      "value": { "line": 61, "col": 17, "value": "h" }
+                    }
+                  }
+                }
+              },
+              {
+                "line": 62,
+                "col": 9,
+                "value": {
+                  "type": "assign",
+                  "lhs": { "line": 62, "col": 9, "value": "h" },
+                  "rhs": {
+                    "line": 62,
+                    "col": 13,
+                    "value": {
+                      "type": "plus",
+                      "lhs": {
+                        "line": 62,
+                        "col": 13,
+                        "value": {
+                          "type": "identifier",
+                          "value": { "line": 62, "col": 13, "value": "h" }
+                        }
+                      },
+                      "rhs": {
+                        "line": 62,
+                        "col": 17,
+                        "value": {
+                          "type": "number",
+                          "line": 62,
+                          "col": 17,
+                          "value": 1
+                        }
+                      }
+                    }
+                  }
+                }
+              },
+              {
+                "line": 63,
+                "col": 9,
+                "value": {
+                  "type": "identifier",
+                  "value": { "line": 63, "col": 9, "value": "i" }
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  },
+  {
+    "inherits": "IO",
+    "class_name": "Main",
+    "members": [
+      {
+        "name": { "line": 69, "col": 9, "value": "a" },
+        "type": "member",
+        "init": {
+          "line": 69,
+          "col": 13,
+          "value": {
+            "type": "new",
+            "class": { "line": 69, "col": 17, "value": "Bazz" }
+          }
+        }
+      },
+      {
+        "name": { "line": 70, "col": 9, "value": "b" },
+        "type": "member",
+        "init": {
+          "line": 70,
+          "col": 13,
+          "value": {
+            "type": "new",
+            "class": { "line": 70, "col": 17, "value": "Foo" }
+          }
+        }
+      },
+      {
+        "name": { "line": 71, "col": 9, "value": "c" },
+        "type": "member",
+        "init": {
+          "line": 71,
+          "col": 13,
+          "value": {
+            "type": "new",
+            "class": { "line": 71, "col": 17, "value": "Razz" }
+          }
+        }
+      },
+      {
+        "name": { "line": 72, "col": 9, "value": "d" },
+        "type": "member",
+        "init": {
+          "line": 72,
+          "col": 13,
+          "value": {
+            "type": "new",
+            "class": { "line": 72, "col": 17, "value": "Bar" }
+          }
+        }
+      }
+    ],
+    "methods": [
+      {
+        "name": { "line": 74, "col": 5, "value": "main" },
+        "type": "method",
+        "parameters": [],
+        "body": {
+          "line": 74,
+          "col": 12,
+          "value": {
+            "type": "block",
+            "body": [
+              {
+                "line": 75,
+                "col": 9,
+                "value": {
+                  "type": "self-dispatch",
+                  "method": { "line": 75, "col": 9, "value": "print_string" },
+                  "args": [
+                    {
+                      "line": 75,
+                      "col": 23,
+                      "value": {
+                        "type": "string",
+                        "line": 75,
+                        "col": 23,
+                        "value": "\\n"
+                      }
+                    }
+                  ]
+                }
+              },
+              {
+                "line": 76,
+                "col": 10,
+                "value": {
+                  "type": "string",
+                  "line": 76,
+                  "col": 10,
+                  "value": "do nothing"
+                }
+              }
+            ]
+          }
+        }
+      }
+    ]
+  }
+]
